@@ -31,7 +31,8 @@ const anotherString = newGameName.substring(-3, 2)
 console.log(anotherString);
 
 const newString2 = "   Pratham    "
-console.log(newString2.trim());
+console.log(newString2.trim()); /* The trim() method is used to 
+remove whitespace from both ends of a string.*/
 
 const url = "https://www.you&20tube.com"
 console.log(url.replace("&20", "-"));
